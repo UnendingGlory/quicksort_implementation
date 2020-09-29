@@ -112,7 +112,8 @@ void quicksort_v3(int *arr, int l, int r)
         {
             while (arr[x] < z) ++x;
             while (arr[y] > z) --y;
-            if (x <= y) {
+            if (x <= y)
+            {
                 std::swap(arr[x], arr[y]);
                 ++x, --y;
             }
@@ -138,7 +139,8 @@ void quicksort_v4(int *arr, int l, int r) {
         {
             while (arr[x] < z) ++x;
             while (arr[y] > z) --y;
-            if (x <= y) {
+            if (x <= y)
+            {
                 std::swap(arr[x], arr[y]);
                 ++x, --y;
             }
@@ -199,7 +201,8 @@ void quicksort_v6(int *arr, int l, int r) {
             {
                 while (arr[x] < z) ++x;
                 while (arr[y] > z) --y;
-                if (x <= y) {
+                if (x <= y) 
+                {
                     my_swap(arr[x], arr[y]);
                     ++x, --y;
                 }
