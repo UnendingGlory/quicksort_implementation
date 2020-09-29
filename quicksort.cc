@@ -6,7 +6,7 @@
 void quicksort_v1(int *arr, int l, int r)
 {
     if(l >= r) return;
-    // 下面开始patition操作，枢轴元素选取最左边
+    // 下面开始partition操作，枢轴元素选取最左边
     int x = l, y = r, temp = arr[l];
     while(x < y)
     {
@@ -29,7 +29,7 @@ void quicksort_v2(int *arr, int l, int r)
 {
     while(l < r)
     {
-    // 下面开始patition操作，枢轴元素选取最左边
+    // 下面开始partition操作，枢轴元素选取最左边
         int x = l, y = r, temp = arr[l];
         while(x < y)
         {
