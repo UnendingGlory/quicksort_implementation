@@ -1,6 +1,5 @@
 #ifndef MYTEST_H
 #define MYTEST_H
-
 #include <cstdlib>
 #include <cstring>
 
