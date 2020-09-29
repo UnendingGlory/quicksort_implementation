@@ -5,23 +5,19 @@
 
 （仅自我学习用）
 
----
 
 ## 系统
 * linux
 * windows
 * osx
 
----
 
 ## 运行
 
 1. 克隆仓库
-> $ git clone git@github.com:UnendingGlory/quicksort_implementation.git
-
-> $ cd quicksort_implementation
+$ git clone git@github.com:UnendingGlory/quicksort_implementation.git
+$ cd quicksort_implementation
 
 2. 构建并运行
-> $ make
-
-> $ ./main
+$ make
+$ ./main
