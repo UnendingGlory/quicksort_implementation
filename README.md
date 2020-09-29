@@ -15,9 +15,13 @@
 ## 运行
 
 1. 克隆仓库
+
 $ git clone git@github.com:UnendingGlory/quicksort_implementation.git
+
 $ cd quicksort_implementation
 
 2. 构建并运行
+
 $ make
+
 $ ./main
