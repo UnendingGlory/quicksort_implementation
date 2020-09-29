@@ -18,6 +18,14 @@ int *getRandData(int n)
     return arr;
 }
 
+int *getOrderedData(int n)
+{
+    int *arr = (int *)malloc(sizeof(int) * n);
+    for(int i = 0; i < n; ++i)
+        arr[i] = i; // Ordered initial
+    return arr;
+}
+
 bool check(int *arr, int n)
 {
     for(int i = 1; i < n; ++i)
